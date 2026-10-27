@@ -1,0 +1,146 @@
+body {
+    background-color: #ffe6f0;
+    color: #471c3e;
+    margin: 0;
+    text-align: center;
+}
+header 
+{
+    background-color: #996a81;
+    color: aliceblue;
+    padding: 300px 20px;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 900;
+    flex-wrap: wrap;/*Permite que los elementos se acomoden a los dispositivos moviles*/
+}
+
+header p 
+{
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+nav 
+{
+    background-color: #ffffff;
+    max-width: max-content;
+    margin: 200px auto;
+    padding: 6px 10px;
+    border-radius: 50px;
+    border: 1.5px solid #471c3e;
+}
+
+nav ul 
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente */
+    gap: 8px;
+    flex-wrap: wrap;/*Permite que los elementos se acomoden a los dispositivos moviles*/
+}
+
+nav ul li 
+{
+    display: inline-block;
+    margin: 0;
+}
+
+nav ul li a 
+{
+    color: #471c3e;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px 22px;
+    border-radius: 40px;
+    transition: all 0.2s ease-in-out;
+    display: block;
+}
+
+nav ul li a:hover,
+nav ul li a.activo 
+{
+    background-color: #996a81;
+    color: #ffffff;
+}
+@media (max-width: 768px)
+{
+    nav ul li
+    {
+        flex-direction: column; /*Convierte el menú en una lista vertical*/
+        text-align: center;
+    }
+    nav ul li
+    {
+        margin: 20px 0;
+    }
+}
+img
+{
+    width: 400px;
+    height: 300px;
+    padding: 15px;
+}
+
+#inicio
+{
+    padding: 10px 22px;
+    border-radius: 40px;
+    color: #471c3e;
+    padding: 0;
+    text-align: center;
+    font-weight: 30;
+    justify-content: center;
+    flex-wrap: wrap;/*Permite que los elementos se acomoden a los dispositivos moviles*/
+ul li 
+{ list-style: none;
+}
+a 
+{
+    text-decoration: none;
+    color: #cf94c2;
+}
+}
+    
+
+.footer
+{
+     background-color: #996a81;
+    a {
+         text-decoration: none;
+         color: #ffe6f0;
+         display: inline-block;
+         text-decoration: none;
+         color: #ffe6f0;
+         background-color: #8b5a73;
+         border: 1.5px solid #ffcadf;                /* La margencita que lo envuelve */
+         padding: 8px 16px;
+         border-radius: 20px;
+         font-weight: bold;
+         font-style: oblique;
+}
+}
+.puntos
+{
+    ul li 
+    {list-style: none;}
+}
+.tecpuntos
+{
+    ul li 
+    {
+        list-style: none;
+    }
+}
+.li
+{
+    ul li
+    {list-style: none}
+}
